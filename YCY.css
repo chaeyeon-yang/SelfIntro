@@ -23,7 +23,7 @@
 
 .sub-title {
     position: absolute;
-    top: 25%;
+    top: 23%;
     width: 370px;
     font-size: 20px;
     background-color: #fbdf07;
@@ -44,7 +44,7 @@
     display: flex;
     align-items: center;
     width: 900px;
-    height: 300px;
+    height: 250px;
     background-color: white;
     margin: 40px;
     padding: 35px 20px;
@@ -61,4 +61,8 @@
     width: 220px;
     height: 220px;
     margin-right: 20px;
+}
+
+.intro {
+    font-size: 25px;
 }
