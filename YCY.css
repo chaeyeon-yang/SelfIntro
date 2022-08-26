@@ -23,9 +23,12 @@
 
 .sub-title {
     position: absolute;
-    top: 150px;
-    left: 10%;
-    font-size: 30px;
+    top: 25%;
+    width: 370px;
+    font-size: 20px;
+    background-color: #fbdf07;
+    border-radius: 10px;
+    padding: 0px 5px;
 }
 
 .contacts li {
@@ -34,16 +37,12 @@
 
 .dev-component__text h2 {
     color: #ff7f3f;
+    font-size: 30px;
 }
 
-/* .dev-component {
+.dev-component {
     display: flex;
     align-items: center;
-    margin: 0px 100px;
-    padding: 10px 0px;
-} */
-
-.dev-component {
     width: 900px;
     height: 300px;
     background-color: white;
@@ -54,12 +53,12 @@
 }
 
 .dev-component__column {
-    margin-top: 60px;
+    margin-left: 20px;
+    margin-top: 17px;
 }
 
 .dev-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
+    width: 220px;
+    height: 220px;
     margin-right: 20px;
 }
