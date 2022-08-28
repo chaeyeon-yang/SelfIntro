@@ -15,11 +15,17 @@
 }
 
 #clock {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 0;
-    margin-left: 60px;
-    margin-bottom: 20px;
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    /* margin-bottom: 20px; */
+}
+
+#weather {
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    color: #30a3f0;
 }
 
 .frame {
