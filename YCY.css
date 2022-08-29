@@ -25,6 +25,7 @@
     top: 5%;
     left: 80%;
     color: #30a3f0;
+    font-size: 18px;
 }
 
 #move-page {
@@ -124,7 +125,7 @@
 
 .sub-plan > h2 {
     position: relative;
-    top: -330px;
+    top: -10px;
 }
 .sub-plan__keywords {
     display: flex;
@@ -132,7 +133,7 @@
     align-items: flex-start;
     justify-content: space-between;
     margin-left: 30px;
-    margin-top: -300px;
+    /* margin-top: -10px; */
     /* box-sizing: border-box; */
 }
 
@@ -150,12 +151,28 @@
     margin-right: 50px;
 }
 
-.sub-plan-second > h2 {
-    margin-top: 40px;
-}
-
 .study-plan {
     position: relative;
-    top: -360px;
+    top: -24px;
+    width: fit-content;
+}
+
+.sub-plan-second {
+    margin-top: 20px;
+}
+
+.pupply-title > h2 {
+    position: relative;
+    top: 100px;
+    width: fit-content;
+}
+.content {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.pupply-title > h2 {
+    position: relative;
+    top: 100px;
     width: fit-content;
 }
