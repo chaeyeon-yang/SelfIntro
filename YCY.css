@@ -41,6 +41,11 @@
     height: 700px;
 }
 
+#add-on {
+    font-size: 15px;
+    margin-left: 200px;
+}
+
 .frame {
     display: flex;
     justify-content: center;
@@ -49,11 +54,16 @@
 }
 
 .sub-title,
-.study-plan {
+.study-plan,
+.app-title {
     font-size: 20px;
     background-color: #fbdf07;
     border-radius: 10px;
     padding: 0px 5px;
+}
+
+.app-title {
+    margin-top: 160px;
 }
 
 .sub-title {
@@ -99,6 +109,13 @@
     margin-right: 20px;
 }
 
+.app-image {
+    width: 170px;
+    height: 170px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
 .list-number {
     display: flex;
     flex-direction: column;
@@ -133,8 +150,6 @@
     align-items: flex-start;
     justify-content: space-between;
     margin-left: 30px;
-    /* margin-top: -10px; */
-    /* box-sizing: border-box; */
 }
 
 .circle {
@@ -161,18 +176,17 @@
     margin-top: 20px;
 }
 
-.pupply-title > h2 {
-    position: relative;
-    top: 100px;
-    width: fit-content;
-}
 .content {
     font-size: 25px;
     margin-top: 20px;
 }
 
-.pupply-title > h2 {
+.app-intro {
     position: relative;
-    top: 100px;
-    width: fit-content;
+    top: -190px;
+    left: 60%;
+}
+
+.app-intro div {
+    font-size: 23px;
 }
